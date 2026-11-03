@@ -1,0 +1,30 @@
+1. Features
+Add and view sports equipment.
+Search equipment by name.
+Track available stock.
+Rent equipment to customers.
+Record equipment returns.
+Prevent rentals when stock is unavailable.
+Track rental due dates.
+Calculate rental charges.
+View overdue rentals.
+Generate stock and rental reports.
+
+
+2. Project structure
+Sports_Equipment_Rental_Tracker/
+│
+├── main.py
+├── config.py
+├── storage.py
+├── utils.py
+├── equipment_manager.py
+├── rental_manager.py
+├── report_manager.py
+├── requirements.txt
+├── .gitignore
+├── README.md
+│
+└── data/
+    ├── equipment.json
+    └── rentals.json
